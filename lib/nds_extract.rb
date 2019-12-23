@@ -80,6 +80,8 @@ i = 0
     result << movies_with_director_key(director_name, directors_movies)
     i += 1
   end
+  
+  result
 end
 
 # ----------------    End of Your Code Region --------------------
