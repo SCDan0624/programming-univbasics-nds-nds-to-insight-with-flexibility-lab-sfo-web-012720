@@ -70,6 +70,9 @@ result
 end
 
 def movies_with_directors_set(source)
+result = []
+i = 0 
+
 
 end
 
