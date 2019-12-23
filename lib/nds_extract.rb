@@ -74,10 +74,10 @@ result = []
 i = 0 
 
   while i < source.length do
-    dir_info_hash = source[i]
-    director_name = dir_info_hash[:name]
-    directors_movies = dir_info_hash[:movies]
-    a_o_a_movies_by_dir << movies_with_director_key(director_name, directors_movies)
+    director_info_hash = source[i]
+    director_name = director_info_hash[:name]
+    directors_movies = director_info_hash[:movies]
+    result << movies_with_director_key(director_name, directors_movies)
     i += 1
   end
 end
