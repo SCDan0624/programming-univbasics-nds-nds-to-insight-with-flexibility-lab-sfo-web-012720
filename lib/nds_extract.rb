@@ -52,7 +52,7 @@ end
 
 
 def gross_per_studio(collection)
-result = []
+result = {}
 i = 0 
 end
 
